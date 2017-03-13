@@ -6,12 +6,13 @@ https.get(options, function (response) {
 
   response.setEncoding('utf8');
   var buff = [];
+
   response.on('data', function (data) {
     buff.push(data);
-    console.log('Data Recived:', buff);
   });
 
   response.on('end', function() {
+    console.log(buff.join(""));
     console.log('Response stream complete.');
   });
 

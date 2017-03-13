@@ -13,10 +13,11 @@ function getAndPrintHTML () {
   var buff = [];
   response.on('data', function (data) {
     buff.push(data);
-    console.log('Data Recived:', buff);
+
   });
 
   response.on('end', function() {
+    console.log('Data Recived:', buff.join(""));
     console.log('Response stream complete.');
   });
 
