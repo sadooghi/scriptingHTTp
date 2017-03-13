@@ -1,0 +1,19 @@
+{
+  "name": "scripting-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getAndPrintHTMLChunks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadooghi/scriptingHTTp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadooghi/scriptingHTTp/issues"
+  },
+  "homepage": "https://github.com/sadooghi/scriptingHTTp#readme"
+}
